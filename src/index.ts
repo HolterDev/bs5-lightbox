@@ -46,7 +46,9 @@ class Lightbox {
 		interval: false,
 		target: '[data-toggle="lightbox"]',
 		gallery: '',
-		size: 'xl'
+		size: 'xl',
+		ride: false,
+		pause: false
 	};
 
 	public modalOptions: bootstrap.Modal.Options = (() => this.setOptionsFromSettings(bootstrap.Modal.Default))();

@@ -4,6 +4,7 @@
  * @file Creates a modal with a lightbox carousel.
  * @module bs5-lightbox
  */
+import * as bootstrap from 'bootstrap';
 declare class Lightbox {
     static allowedEmbedTypes: readonly ["embed", "youtube", "vimeo", "instagram", "url"];
     static allowedMediaTypes: readonly ["embed", "youtube", "vimeo", "instagram", "url", "image"];

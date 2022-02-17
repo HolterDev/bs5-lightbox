@@ -1,18 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "declaration": true,
-    "outDir": "./dist",
-    "noImplicitAny": false,
-    "esModuleInterop": true,
-    "allowJs": true,
-    "downlevelIteration": true,
-    "noImplicitUseStrict": true
-  },
-  "include": [
-    "src/**/*.ts",
-  ],
-  "exclude": ["node_modules", "**/__tests__/*"],
-  "skipLibCheck": true
+	"compilerOptions": {
+		"target": "es6",
+		"module": "umd",
+		"declaration": true,
+		"outDir": "./dist",
+		"noImplicitAny": false,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"downlevelIteration": true,
+		"noImplicitUseStrict": true,
+		"moduleResolution": "node"
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", "**/__tests__/*"],
+	"skipLibCheck": true
 }

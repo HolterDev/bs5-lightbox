@@ -20,6 +20,9 @@ module.exports = {
 	],
 	output: {
 		path: path.resolve(__dirname, './dist'),
-		filename: 'index.bundle.min.js'
+		filename: 'index.bundle.min.js',
+		globalObject: 'this',
+		libraryExport: 'default',
+		libraryTarget: 'umd'
 	}
 };

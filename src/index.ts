@@ -5,13 +5,7 @@
  * @module bs5-lightbox
  */
 
-import Modal from './bootstrap/modal';
-import Carousel from './bootstrap/carousel';
-
-const bootstrap = {
-	Modal,
-	Carousel
-};
+import * as bootstrap from 'bootstrap';
 
 class Lightbox {
 	static allowedEmbedTypes = ['embed', 'youtube', 'vimeo', 'instagram', 'url'] as const;
